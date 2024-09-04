@@ -1,0 +1,11 @@
+# FROM python:3.12.5
+# RUN pip install numpy == 1.26.0
+# RUN pip install polars == 1.5.0
+# RUN pip install pandas == 2.2.2
+# RUN pip install seaborn == 0.13.2
+FROM python:3.12.5
+RUN pip install numpy==1.26.0
+RUN pip install polars==1.5.0
+RUN pip install pandas==2.2.2
+RUN pip install seaborn==0.13.2
+RUN pip install jupyter
